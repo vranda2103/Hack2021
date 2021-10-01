@@ -21,7 +21,7 @@ int main()
         }
         if(i==(n-1))
         {
-            printf("\n Element not found in the array.")
+            printf("\n Element not found in the array.");
         }
     }
     printf("\n\n");
