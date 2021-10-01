@@ -58,7 +58,7 @@ int main()
         printf("\n Position of element in sorted array is %d.",m+1);
     }
     else
-        printf("\n element is not in array.")
+        printf("\n element is not in array.");
 
         printf("\n\n");
 
