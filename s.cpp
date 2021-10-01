@@ -13,7 +13,7 @@ unsigned int factorial(unsigned int n)
 int main()
 {
     int num = 5;
-    cout << "Factorial of "
+    cout << " the Factorial of "
          << num << " is " << factorial(num) << endl;
     return 0
 }
