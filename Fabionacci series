@@ -1,0 +1,17 @@
+//to find fabionacci series
+#include<stdio.h>
+int fabb(int n)
+{static a,b=1, m;
+if(n>0)
+{printf("%d\t",m);
+a=b;b=m;m=a+b;
+fabb(n-1);
+}
+}
+int main()
+{int b;
+printf("Enter upto what number you want to print fabionacci::");
+scanf("%d",&b);
+printf("The faboincci upto %d is::",b);
+printf("%d\t",fabb(b));
+}
